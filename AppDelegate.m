@@ -23,7 +23,8 @@
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     
-    SuperPuperClass* newClass = [SuperPuperClass new];
+    SuperPuperClass* newX = [SuperPuperClass new];
+    [newX autorelease];
     
     return YES;
 }
